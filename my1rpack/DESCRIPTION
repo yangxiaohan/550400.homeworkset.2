@@ -1,0 +1,9 @@
+Package: my1rpack
+Type:package
+Title: My First R Package
+Version:1.0
+Date:2012-10-31
+Author: xiaohan Yang
+Maintainer:xiaohan Yang <xyang39@jhu.edu>
+Description: This R package contains 1 function and 1 dataset
+License: GPL-3
