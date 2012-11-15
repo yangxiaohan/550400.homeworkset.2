@@ -9,5 +9,5 @@
 
 \keyword{package}
 \examples{
-package(my1rpack)
+library(my1rpack)
 }

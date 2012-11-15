@@ -1,8 +1,10 @@
-\name{Problem 1}
-\alias{Problem 1}
+\name{problem1}
+\alias{problem1}
 \title{Solution to Problem 1}
 \description{This function generates a line plot of a distribution specified by the user and a tex file of the plot that can be compiled to generate a pdf file of the plot.}
-\usage{problem1(filename,fcnname,LRrange,nsample,compile)}
+\usage{
+problem1(filename,fcnname,LRrange,nsample,compile)
+}
 
 \arguments{
   \item{filename}{character vector, used to generate the name of the tex file}
@@ -17,7 +19,8 @@
 
 \examples{
 require(tikzDevice)
+require(my1rpack)
 YesNo<-1
-problem1('bmw1Series',dnorm,c(-5,5),10,YesNo) 
-
+problem1
+%problem1('bmw1Series',dnorm,c(-5,5),10,YesNo) 
 }

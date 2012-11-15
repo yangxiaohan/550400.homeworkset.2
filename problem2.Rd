@@ -1,5 +1,5 @@
-\name{Problem 2}
-\alias{Problem 2}
+\name{problem2}
+\alias{problem2}
 \docType{data}
 \title{
 Medal Count For Winter Olympics 2011}
@@ -20,6 +20,6 @@ It shows the number of Brozen, Silver and Gold medals of each country.
 }
 \examples{
 data(problem2)
-such as str(problem2) ; plot(problem2)
+## such as str(problem2) ; plot(problem2) ...
 }
 \keyword{datasets}

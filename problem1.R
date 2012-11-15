@@ -6,7 +6,7 @@ problem1<-function(filename=NULL,fcnname=NULL,LRrange=NULL,nsample=NULL,compile=
   xend=LRrange[2]
   xval=seq(xbeg,xend,length=nsample)
   yval=fcnname(xval)
-  plot(xval,yval,type="l",xlab ="x", ylab="dnorm(x)")  
+  plot(xval,yval,type="l",xlab ="\\verb+x+", ylab="\\verb+dnorm(x)+")  
   dev.off()
   
   
